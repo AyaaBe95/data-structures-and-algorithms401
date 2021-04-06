@@ -1,6 +1,6 @@
 # Binary Search
 Implement Binary Search Algorithm
-[Link to code](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/app/src/main/java/data/structures/and/algorithms401/binarySearch.java)
+[Link to code](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/binarysearch/lib/src/main/java/binarysearch/binarySearch.java)
 
 ## Challenge
 - Given an array of integers and value to be searched,
