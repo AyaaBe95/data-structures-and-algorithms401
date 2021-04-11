@@ -7,31 +7,43 @@ package Data.Structures;
 public class LinkedList {
 
 
-    public  Node head;
+    Node head=null;
+    Node tail = null;
+
 
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
         l.insert(5);
-        l.insert(3);
         l.insert(4);
+        l.insert(3);
+
         l.toString();
+
+
     }
 
-    public void  insert(int data){
+    public void  insert(int element){
 
-        if (head==null) {
-            Node y = new Node(data);
-            y.next = head;
-            head = y;
+        Node tmp = new Node();
+
+
+        if (head==null){
+            //CREATE OBJ FROM NODE CLASS
+            //insert
+            tmp.data=element;
+            //head pointer to data
+            head=tmp;
+            //tail pointer to data
+            tail=tmp;
+
         } else {
-            Node k = head;
-            while (k.next != null) {
-                k = k.next;
+            //store
+            tmp.data=element;
+            //point to new node
+            tail.next=tmp;
+            tail=tmp;
 
-            }
-            k.next = new Node(data);
         }
-
 
     }
 
@@ -62,6 +74,9 @@ public class LinkedList {
             return msg;
         }
     }
+
+    
+
     }
 
 
