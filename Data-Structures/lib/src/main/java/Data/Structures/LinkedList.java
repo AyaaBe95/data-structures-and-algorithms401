@@ -11,7 +11,8 @@ public class LinkedList {
         l.insert(5);
         l.insert(3);
         l.insert(4);
-        l.toString();
+        l.Includes(7);
+//        l.toString();
     }
 
     public void  insert(int data){
@@ -24,11 +25,13 @@ public class LinkedList {
 
         while (current.next !=null){
             if (current.data==d){
+                System.out.print("true");
                 return true;
 
             }
             current=current.next;
-        }
+        } System.out.print("false");
+
         return false;
     }
 
