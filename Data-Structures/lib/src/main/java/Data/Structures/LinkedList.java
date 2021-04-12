@@ -71,6 +71,10 @@ public class LinkedList {
         }
     }
 
+    public void append(int val){
+        Node addedNode = new Node(val);
+    }
+
 
 
 }
