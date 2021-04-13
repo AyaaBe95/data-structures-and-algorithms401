@@ -2,6 +2,19 @@ package Data.Structures;
 
 
 public class LinkedList {
+    public class Node {
+
+        public int data;
+        public Node next;
+
+
+        // constructor
+        public Node(int d) {
+
+            this.data = d;
+            next = null;
+        }
+    }
 
 
     public Node head;
@@ -16,7 +29,10 @@ public class LinkedList {
         l.insertBefore(5, 9);
         l.insertAfter(5, 9);
 
+        System.out.println(l.kthFromTheEnd(0));
         l.toString();
+
+
     }
 
     public void insert(int data) {
@@ -104,6 +120,30 @@ public class LinkedList {
             current.next = node;
             node.next = j;
         }
+    }
+
+    public int kthFromTheEnd(int kth){
+        int lengthOfList = 0;
+        Node current = head;
+
+        while(current.next != null){
+            lengthOfList += 1;
+            current = current.next;
+        }
+
+        if(kth > lengthOfList){
+            throw new IllegalArgumentException("The kth value is greater than the length of the linked list");
+        }
+
+        int frontIndex = lengthOfList - kth;
+        current = head;
+
+        while(frontIndex != 0){
+            current = current.next;
+            frontIndex -= 1;
+        }
+
+        return current.data;
     }
 
 
