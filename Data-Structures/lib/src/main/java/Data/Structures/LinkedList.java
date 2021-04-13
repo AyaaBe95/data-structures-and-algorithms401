@@ -21,15 +21,25 @@ public class LinkedList {
 
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
-        l.insert(5);
+        l.insert(1);
+        l.insert(2);
         l.insert(3);
-        l.insert(4);
-        l.append(5);
-        l.insertBefore(5, 9);
-        l.insertAfter(5, 9);
 
-        System.out.println(l.kthFromTheEnd(0));
-        l.toString();
+        LinkedList ll = new LinkedList();
+        ll.insert(6);
+        ll.insert(8);
+
+        LinkedList newList = mergeLists(l, ll);
+
+        newList.toString();
+
+
+
+
+
+
+
+
 
     }
 
@@ -145,7 +155,36 @@ public class LinkedList {
         return current.data;
     }
 
-
+    public Node getHead() {
+        return this.head;
     }
+
+
+    public static LinkedList mergeLists(LinkedList one, LinkedList two) {
+        Node oneCurrent = one.getHead();
+        Node twoCurrent = two.getHead();
+        Node temp1;
+        Node temp2;
+        // if list are empty
+        if (oneCurrent == null) return two;
+        if (twoCurrent == null) return one;
+        while(true){
+            temp1 = oneCurrent.next;
+            temp2 = twoCurrent.next;
+            oneCurrent.next = twoCurrent;
+            oneCurrent = temp1;
+            if (oneCurrent == null) break;
+            twoCurrent.next = oneCurrent;
+            twoCurrent = temp2;
+            if (twoCurrent == null) break;
+        }
+        return one;
+    }
+
+
+
+
+
+}
 
 
