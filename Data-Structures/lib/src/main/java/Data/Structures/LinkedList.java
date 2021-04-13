@@ -24,14 +24,12 @@ public class LinkedList {
         l.insert(5);
         l.insert(3);
         l.insert(4);
-//        l.Includes(7);
         l.append(5);
         l.insertBefore(5, 9);
         l.insertAfter(5, 9);
 
         System.out.println(l.kthFromTheEnd(0));
         l.toString();
-
 
     }
 
@@ -48,15 +46,16 @@ public class LinkedList {
     public boolean Includes(int d) {
         Node current = this.head;
 
-        while (current.next != null) {
-            if (current.data == d) {
+
+        while (current.next !=null){
+            if (current.data==d){
                 System.out.print("true");
                 return true;
 
             }
-            current = current.next;
-        }
-        System.out.print("false");
+
+            current=current.next;
+        } System.out.print("false");
 
         return false;
     }
