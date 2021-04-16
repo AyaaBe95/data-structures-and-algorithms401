@@ -5,16 +5,18 @@ import static org.junit.Assert.*;
 
 public class LinkedListTest {
 
-    LinkedList test = new LinkedList();
+    LinkedList l = new LinkedList();
     @Test public void testEmptyLinkedList(){
-        String output = test.toString();
+        String output = l.toString();
         assertEquals( "NULL",output);
     }
 
     @Test public void testInsertList(){
-        test.insert(3);
-        String output = test.toString();
-        assertEquals( "{3} -> NULL",output);
+        l.insert(5);
+        l.insert(3);
+        l.insert(4);
+        String output = l.toString();
+        assertEquals( "{4} -> {3} -> {5} -> NULL",output);
     }
 
     @Test

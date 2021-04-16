@@ -9,23 +9,7 @@ import static org.junit.Assert.*;
 
 public class AppTest {
 
-        stack stack;
-        queue queue;
 
-        @Before
-        public void initStackAndQueue() {
-            stack = new stack();
-            queue = new queue();
-        }
-
-    @Test
-    public void checkEmptyStackAndQueueTest() {
-        assertEquals("An empty stack cannot pop","null", stack.pop());
-        assertEquals("An empty queue cannot dequeue", "null", queue.dequeue());
-        assertEquals("Stack is empty when first initialized",true, stack.isEmpty());
-        assertEquals("Queue is empty when first initialized",true, queue.isEmpty());
-
-    }
 
 
     }

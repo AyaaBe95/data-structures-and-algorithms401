@@ -11,14 +11,20 @@ public class LinkedList {
         l.insert(5);
         l.insert(3);
         l.insert(4);
-        l.Includes(7);
-//        l.toString();
+//        l.Includes(7);
+        l.toString();
     }
 
     public void  insert(int data){
-        this.head=new Node(data,this.head);
-
+//        this.head=new Node(data,this.head);
+        Node node = new Node(data);
+        if (head != null) {
+            node.next = head;
+        }
+        head = node;
     }
+
+
 
     public boolean Includes(int d){
         Node current = this.head;
