@@ -4,38 +4,54 @@
 package stack.and.queue;
 
 public class Library {
-    public static void main(String[] args) {
 
-        stack stack = new stack();
-        System.out.println(stack.isEmpty());
-       stack.push(5);
-        stack.push(2);
-        stack.push(3);
-        System.out.println(stack.isEmpty());
+        public static void main(String[] args) {
 
-        System.out.println(stack.peek());
+            stack stack = new stack();
+            System.out.println(stack.isEmpty());
+//        stack.push(5);
+//        stack.push(2);
+//        stack.push(3);
+//        System.out.println(stack.peek());
+//
+//        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
 
-       System.out.println(stack.pop());
-       System.out.println(stack.pop());
-        System.out.println(stack.pop());
+//            queue queue = new queue();
+//            queue.enqueue(2);
+//            System.out.println(queue);
+//            System.out.println(queue.dequeue());
+//            System.out.println(queue);
+//            System.out.println(queue.isEmpty());
+//            System.out.println(queue.peek());
+//            queue.enqueue(2);
+//
+//            System.out.println(queue.dequeue());
 
-        queue queue = new queue();
-        queue.enqueue(2);
-        System.out.println(queue);
-        System.out.println(queue.dequeue());
-        System.out.println(queue);
-        System.out.println(queue.isEmpty());
-        System.out.println(queue.peek());
-        queue.enqueue(2);
+            PseudoQueue pseudoQueue = new PseudoQueue();
+            pseudoQueue.enqueue(1);
+            pseudoQueue.enqueue(2);
+            System.out.println("hello");
+            System.out.println(pseudoQueue);
+            System.out.println(pseudoQueue.dequeue());
+            System.out.println(pseudoQueue);
+            System.out.println(pseudoQueue.dequeue());
+            System.out.println(pseudoQueue);
+            System.out.println(pseudoQueue.dequeue());
+            System.out.println(pseudoQueue);
 
-        System.out.println(queue.dequeue());
 
 
 
+
+
+
+        }
 
 
 
 
     }
 
-}
+
