@@ -1,53 +1,56 @@
 package stack.and.queue;
 
 public class stack <T> {
-    Node top;
+        Node top;
 
-    public stack() {
-        this.top = null;
-    }
+        public stack() {
+        }
 
-    public stack(T value) {
-        this.top = new Node(value);
 
-    }
 
-    public <T> void push(T value) {
-        Node stackNode = new Node(value);
-        stackNode.next = top;
-        top = stackNode;
-    }
-
-    public Object pop(){
-        Node lastNode = top;
-        try {
-            if (isEmpty()){
-                return new NullPointerException();
+        public void push(int value){
+            try {
+                Node node = new Node(value);
+                node.next = top;
+                top = node;
+            }catch (Exception ex){
+                System.out.println(ex);
             }
-            top = top.next;
-            lastNode.next = null;
-        }catch (NullPointerException ex){
-            System.out.println(ex);
         }
-        return lastNode;
-    }
 
-
-    public Object peek() {
-        try {
-            if (isEmpty())
-                return new NullPointerException();
-        }catch (NullPointerException ex){
-            System.out.println(ex);
+        public Object pop(){
+            Node lastNode = top;
+            try {
+                if (isEmpty()){
+                    return new NullPointerException();
+                }
+                top = top.next;
+                lastNode.next = null;
+            }catch (NullPointerException ex){
+                System.out.println(ex);
+            }
+            return lastNode;
         }
-        return top.data;
-    }
 
-    public boolean isEmpty() {
-        if (top == null) {
-            return true;
+        public Object peek() {
+            try {
+                if (isEmpty())
+                    return new NullPointerException();
+            }catch (NullPointerException ex){
+                System.out.println(ex);
+            }
+            return top.data;
         }
-        return false;
-    }
+
+        @Override
+        public String toString() {
+            return "Stack{" +
+                    "top=" + top +
+                    '}';
+        }
+
+        public boolean isEmpty(){
+            return top == null;
+        }
 
 }

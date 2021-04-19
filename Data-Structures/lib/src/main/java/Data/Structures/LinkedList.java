@@ -25,6 +25,7 @@ public class LinkedList {
         l.insert(2);
         l.insert(3);
 
+
         LinkedList ll = new LinkedList();
         ll.insert(6);
         ll.insert(8);
@@ -32,14 +33,6 @@ public class LinkedList {
         LinkedList newList = mergeLists(l, ll);
 
         newList.toString();
-
-
-
-
-
-
-
-
 
     }
 
@@ -54,6 +47,7 @@ public class LinkedList {
     }
 
     public boolean Includes(int d) {
+
         Node current = this.head;
 
 

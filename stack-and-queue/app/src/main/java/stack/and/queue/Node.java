@@ -2,15 +2,12 @@ package stack.and.queue;
 
 public class Node <T> {
 
-    public T data;
-    public Node next;
+    T data;
+    Node next;
 
 
-    // constructor
-    public Node(T d) {
-
-        this.data = d;
-        next = null;
+    Node(T data){
+        this.data = data;
     }
 
     @Override

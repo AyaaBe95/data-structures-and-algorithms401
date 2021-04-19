@@ -16,12 +16,18 @@ public class queue <T>{
 
     }
 
-    public  void enqueue (T value){
-        if (rare == null) rare= new Node(value);
-
-        this.rare.next=new Node(value);
-        this.rare=this.rare.next;
-
+    public void enqueue(T value){
+        try {
+            if (rare == null){
+                front = new Node(value);
+                rare = front;
+            }else {
+                this.rare.next = new Node(value);
+                this.rare = this.rare.next;
+            }
+        }catch (Exception ex){
+            System.out.println(ex);
+        }
     }
 
     public Object dequeue(){
