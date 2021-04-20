@@ -1,9 +1,13 @@
 # Challenge
-Create stacks and queues that can insert new nodes via enqueue or push, remove nodes via pop or dequeue, and peak top/front values
+- Create stacks and queues that can insert new nodes via enqueue or push, remove nodes via pop or dequeue, and peak top/front values
 
 # Approach & Efficiency
-Create methods per docs then the Stacks and Queues in constructor. Then created the Node class with it's constructor. Fleshed out the pop, push, enqueue, dequeue, and peek methods.
-Finally wrote test to check the push, pop, enqueue, dequeue and peek methods
+- isEmpty() O(1)
+- push() O(1)
+- POP() O(1)
+- enqueue() O(1)
+- dequeue() O(1)
+- peek() O(1)
 
 # Solution
 
