@@ -48,9 +48,10 @@ public class stack <T> {
         return top.value;
     }
 
+
     @Override
     public String toString() {
-        return "Stack{" +
+        return "stack{" +
                 "top=" + top +
                 '}';
     }
