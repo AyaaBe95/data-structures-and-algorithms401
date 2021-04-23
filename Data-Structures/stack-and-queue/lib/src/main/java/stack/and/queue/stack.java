@@ -4,6 +4,14 @@ public class stack <T> {
 
     Node top;
 
+    public Node getTop() {
+        return top;
+    }
+
+    public void setTop(Node top) {
+        this.top = top;
+    }
+
     public stack(T value) {
 
         this.top = new Node(value);
