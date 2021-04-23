@@ -6,8 +6,8 @@ package stack.and.queue;
 public class Library {
     public static void main(String[] args) {
 
-        stack stack = new stack();
-        System.out.println(stack.isEmpty());
+//        stack stack = new stack();
+//        System.out.println(stack.isEmpty());
 //        stack.push(5);
 //        stack.push(2);
 //        stack.push(3);
@@ -27,12 +27,6 @@ public class Library {
         queue.enqueue(2);
 
         System.out.println(queue.dequeue());
-
-
-
-
-
-
 
     }
 
