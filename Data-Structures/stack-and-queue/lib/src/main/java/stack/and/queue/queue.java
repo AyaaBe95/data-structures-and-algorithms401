@@ -3,59 +3,69 @@ package stack.and.queue;
 public class queue <T>{
 
     Node front;
-    Node Rear;
+    Node rear;
 
     public queue(T value) {
-        this.front = new Node(value);
-        this.Rear = this.front;
+        this.front = new Node(value); // add from back
+        this.rear = this.front;
     }
 
     public queue() {
+
     }
 
     public void enqueue(T value){
+        Node node = new Node(value);
+        if (front==null){
+            front=node;
+            rear=front;
+        } else {
+            this.rear.next=node;
+            this.rear=this.rear.next;
+
+        }
+
+    }
+
+    public Object dequeue(){
+        Node firstNode = front;
         try {
-            if (Rear == null){
-                front = new Node(value);
-                Rear = front;
-            }else {
-                this.Rear.next = new Node(value);
-                this.Rear = this.Rear.next;
+            if (isEmpty())
+                return new NullPointerException();
+            if(front == rear){
+                rear = null;
             }
-        }catch (Exception ex){
+            front = front.next;
+            firstNode.next = null;
+        }catch (NullPointerException ex){
             System.out.println(ex);
         }
-    }
+        return firstNode;
 
-    public int dequeue(){
-        int returnValue = -1;
-        if (!isEmpty()) {
-            returnValue = (int) front.value;
-            front = front.next;
-            return returnValue;
-        }
-        return returnValue;
     }
 
 
-    public int peek() {
-        if (!isEmpty()) {
-            return (int) front.value;
-        } else {
-            return -1;
+    public Object peek() {
+        try {
+            if (isEmpty())
+                return new NullPointerException();
+        }catch (NullPointerException ex){
+            System.out.println(ex);
         }
+        return front.value;
     }
 
 
     public boolean isEmpty(){
+
         return front == null;
     }
 
     @Override
     public String toString() {
-        return "queue{" +
-                "front=" + front +
-                ", Rear=" + Rear +
+        return "Queue{" +
+                "front=" + this.front +
+                ", Rear=" + this.rear +
                 '}';
     }
 }

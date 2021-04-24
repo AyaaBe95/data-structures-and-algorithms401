@@ -2,24 +2,55 @@ package stack.and.queue;
 
 import java.util.HashMap;
 
-public class MultiBracketValidation {
+public class MultiBracketValidation <T> {
 
+    public static boolean multiBracketValidation(String input) {
 
-    public static boolean multiBracketValidation(String input){
-        stack OpenBracket = new stack();
-        HashMap<String, String> multiBracket = new HashMap<String,String>();
-        multiBracket.put("}", "{");
-        multiBracket.put("]", "[");
-        multiBracket.put(")", "(");
+        stack<Character> stack = new stack();
+
         for (int i = 0; i < input.length(); i++) {
-            String chara = Character.toString(input.charAt(i));
-            String item = multiBracket.get(chara);
-            if(item != null){
-                if(OpenBracket.isEmpty() || !item.equals(OpenBracket.pop())){ return false;}
-            }else if (chara.equals("(") || chara.equals("{") || chara.equals("[") ){
-                OpenBracket.push(chara);
+            char brackets = input.charAt(i);
+
+            if (brackets == '(' || brackets == '{' || brackets == '[') {
+                stack.push(brackets);
+            } else {
+                if (brackets == ')') {
+                    if (!stack.isEmpty()) {
+                        if (stack.peek().equals('(')) {
+                            stack.pop();
+                        } else {
+                            return false;
+                        }
+
+                    } else {
+                        return false;
+                    }
+                } else if (brackets == ']') {
+                    if (!stack.isEmpty()) {
+                        if (stack.peek().equals('[')) {
+                            stack.pop();
+                        } else {
+                            return false;
+                        }
+
+                    } else {
+                        return false;
+                    }
+                } else if (brackets == '}') {
+                    if (!stack.isEmpty()) {
+                        if (stack.peek().equals('{')) {
+                            stack.pop();
+                        } else {
+                            return false;
+                        }
+
+                    } else {
+                        return false;
+                    }
+                }
             }
         }
-        return OpenBracket.isEmpty();
+        return stack.isEmpty();
     }
 }
+

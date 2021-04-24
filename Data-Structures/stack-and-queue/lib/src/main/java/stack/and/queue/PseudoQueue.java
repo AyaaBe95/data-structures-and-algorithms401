@@ -50,12 +50,11 @@ public class PseudoQueue <T>{
         return value;
     }
 
-
-//    @Override
-//    public String toString() {
-//        return "PseudoQueue{" +
-//                "stackQueue=" + stackQueue +
-//                ",stackHelper=" +stackHelper +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "PseudoQueue{" +
+                "stackQueue=" + stackQueue +
+                ", stackHelper=" + stackHelper +
+                '}';
+    }
 }

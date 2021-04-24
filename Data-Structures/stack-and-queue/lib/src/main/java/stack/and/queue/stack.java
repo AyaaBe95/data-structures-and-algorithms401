@@ -13,6 +13,7 @@ public class stack <T> {
     }
 
     public stack(T value) {
+
         this.top = new Node(value);
     }
 
@@ -21,21 +22,28 @@ public class stack <T> {
 
     public void push(T value){
         try {
-            Node newNode = new Node(value);
-            newNode.next = top;
-            top = newNode;
-        }catch (Exception ex){
+            Node node = new Node(value);
+            node.next=top;
+            top=node;
+        } catch (Exception ex){
             System.out.println(ex);
+
         }
+
     }
 
-    public int pop() {
-        if (!isEmpty()) {
-            int returnValue = (int) top.value;
+    public Object pop(){
+        Node lastNode = top;
+        try {
+            if (isEmpty()){
+                return new NullPointerException();
+            }
             top = top.next;
-            return returnValue;
+            lastNode.next = null;
+        }catch (NullPointerException ex){
+            System.out.println(ex);
         }
-        return -1;
+        return lastNode.value;
     }
 
     public Object peek() {
@@ -48,6 +56,11 @@ public class stack <T> {
         return top.value;
     }
 
+    public boolean isEmpty(){
+
+        return top == null;
+    }
+
 
     @Override
     public String toString() {
@@ -56,7 +69,4 @@ public class stack <T> {
                 '}';
     }
 
-    public boolean isEmpty(){
-        return top == null;
-    }
 }

@@ -96,7 +96,7 @@ public class LibraryTest {
         q.enqueue(1);
         q.enqueue(2);
         q.enqueue(3);
-        assertEquals("the Output", 1, q.dequeue());
+        assertEquals("the Output", "Node{value=1, next=null}", q.dequeue().toString());
     }
 
     @Test
@@ -134,10 +134,15 @@ public class LibraryTest {
         assertEquals(new NullPointerException(), q.peek());
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testDequeueEmptyQueue() {
-        queue q = new queue();
-        assertEquals(new NullPointerException(), q.dequeue());
+//    @Test(expected = NullPointerException.class)
+//    public void testDequeueEmptyQueue() {
+//        queue q = new queue();
+//        assertEquals(new NullPointerException(), q.dequeue().toString());
+//    }
+
+    @Test public void testDequeueEmptyQueue() {
+        queue classUnderTest = new queue();
+        assertEquals(" exception","java.lang.NullPointerException" ,classUnderTest.peek().toString());
     }
 
 
