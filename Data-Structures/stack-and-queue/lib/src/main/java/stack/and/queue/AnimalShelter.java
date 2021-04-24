@@ -1,7 +1,7 @@
 package stack.and.queue;
 
-public class AnimalShelter <T> {
 
+public class AnimalShelter<T>{
     Node<T> front;
     Node<T> rear;
 
@@ -11,22 +11,22 @@ public class AnimalShelter <T> {
 
         if (this.front == null) {
             this.front = newNode;
-            this.rear = newNode;
 
-        } else {
+        } else if (animal == "dog" || animal == "cat" || animal == "Dog" || animal == "Cat"){
             this.rear.next = newNode;
-            this.rear = newNode;
         }
+
+        this.rear = newNode;
+
     }
 
     public T dequeue(T pref) {
         Node<T> temp = this.front;
         if (temp == null) return null;
-        if (pref != "dog" && pref != "cat") return null;
+        if (pref != "dog" && pref != "cat" && pref != "Cat" && pref != "Dog") return null;
         else{
             this.front = this.front.next;
         }
         return pref;
     }
-
 }
