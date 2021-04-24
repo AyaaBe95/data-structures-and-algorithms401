@@ -29,8 +29,12 @@ public class Library {
 //
 //        System.out.println(queue.dequeue());
 
-        AnimalShelter a = new AnimalShelter();
-        a.enqueue("caaat");
+//        AnimalShelter a = new AnimalShelter();
+//        a.enqueue("caaat");
+
+        MultiBracketValidation multiBracketValidation = new  MultiBracketValidation ();
+        System.out.println(multiBracketValidation.multiBracketValidation("{}{Code}[Fellows](())"));
+
 
 
 
