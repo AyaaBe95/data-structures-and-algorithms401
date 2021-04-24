@@ -1,6 +1,5 @@
 package stack.and.queue;
 
-import java.util.HashMap;
 
 public class MultiBracketValidation <T> {
 

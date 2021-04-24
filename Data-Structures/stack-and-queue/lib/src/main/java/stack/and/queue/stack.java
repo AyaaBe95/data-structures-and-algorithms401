@@ -13,7 +13,6 @@ public class stack <T> {
     }
 
     public stack(T value) {
-
         this.top = new Node(value);
     }
 
