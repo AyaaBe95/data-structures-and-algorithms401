@@ -64,7 +64,7 @@ public class stack <T> {
 
     @Override
     public String toString() {
-        return "Stack{" +
+        return "stack{" +
                 "top=" + top +
                 '}';
     }
