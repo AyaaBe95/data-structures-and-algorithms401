@@ -32,16 +32,18 @@ public class stack <T> {
 
     }
 
-    public Object pop() {
-        if(!isEmpty()){
-            int returnValue = (int) top.value;
+    public Object pop(){
+        Node lastNode = top;
+        try {
+            if (isEmpty()){
+                return new NullPointerException();
+            }
             top = top.next;
-            return returnValue;
-
-
+            lastNode.next = null;
+        }catch (NullPointerException ex){
+            System.out.println(ex);
         }
-        return -1;
-
+        return lastNode.value;
     }
 
     public Object peek() {
