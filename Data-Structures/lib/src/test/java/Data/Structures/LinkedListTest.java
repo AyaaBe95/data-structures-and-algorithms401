@@ -5,16 +5,16 @@ import static org.junit.Assert.*;
 
 public class LinkedListTest {
 
-    LinkedList test = new LinkedList();
+    LinkedList l = new LinkedList();
     @Test public void testEmptyLinkedList(){
-        String output = test.toString();
+        String output = l.toString();
         assertEquals( "NULL",output);
     }
-
+  
+     LinkedList test = new LinkedList();
     @Test public void testInsertList(){
         test.insert(3);
         test.insert(4);
-
         String output = test.toString();
         assertEquals( "{3} -> {4} -> NULL",output);
     }
@@ -35,5 +35,43 @@ public class LinkedListTest {
         classUnderTest.insert(3);
         assertFalse(classUnderTest.Includes(4));
     }
+    @Test
+    public void testAppend() {
+        LinkedList l = new LinkedList();
+        l.insert(6);
+        l.append(9);
+        String expicted = "{6} -> {9} -> NULL";
+        assertEquals("the Output is", expicted, l.toString());
+
+    }
+
+
+
+    @Test
+    public void testInsertAfter() {
+        LinkedList l = new LinkedList();
+        l.insert(5);
+        l.insert(6);
+        l.insert(4);
+        l.insert(9);
+        l.insertAfter(6, 2);
+        String expicted = "{5} -> {6} -> {2} -> {4} -> {9} -> NULL";
+        assertEquals("the output is", expicted, l.toString());
+
+    }
+    @Test
+    public void testInsertBefore() {
+        LinkedList l = new LinkedList();
+        l.insert(5);
+        l.insert(6);
+        l.insert(4);
+        l.insert(9);
+        l.insertBefore(4, 1);
+        String expicted = "{5} -> {6} -> {1} -> {4} -> {9} -> NULL";
+        assertEquals("the Output is", expicted, l.toString());
+
+    }
+
+
 
 }

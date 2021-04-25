@@ -1,3 +1,4 @@
+
 package Data.Structures;
 
 public class Node {
@@ -11,5 +12,8 @@ public class Node {
 
         this.data = d;
         this.next = null;
-    }
+
+}
+  
+
 }
