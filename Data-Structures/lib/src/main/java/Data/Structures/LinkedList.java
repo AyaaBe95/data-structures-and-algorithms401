@@ -2,19 +2,6 @@ package Data.Structures;
 
 
 public class LinkedList {
-    public class Node {
-
-        public int data;
-        public Node next;
-
-
-        // constructor
-        public Node(int d) {
-
-            this.data = d;
-            next = null;
-        }
-    }
 
 
     public Node head;
