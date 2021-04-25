@@ -10,13 +10,13 @@ public class LinkedListTest {
         String output = l.toString();
         assertEquals( "NULL",output);
     }
-
+  
+     LinkedList test = new LinkedList();
     @Test public void testInsertList(){
-        l.insert(5);
-        l.insert(3);
-        l.insert(4);
-        String output = l.toString();
-        assertEquals( "{4} -> {3} -> {5} -> NULL",output);
+        test.insert(3);
+        test.insert(4);
+        String output = test.toString();
+        assertEquals( "{3} -> {4} -> NULL",output);
     }
 
     @Test

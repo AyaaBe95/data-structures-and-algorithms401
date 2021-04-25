@@ -24,8 +24,9 @@ public class LinkedList {
         l.insert(1);
         l.insert(2);
         l.insert(3);
-
-
+        l.insert(4);
+        l.toString();
+   
         LinkedList ll = new LinkedList();
         ll.insert(6);
         ll.insert(8);
@@ -33,18 +34,16 @@ public class LinkedList {
         LinkedList newList = mergeLists(l, ll);
 
         newList.toString();
-
     }
 
-    public void insert(int data) {
+      public void  insert(int data){
         Node node = new Node(data);
-        if (head == null) {
-            head = node;
-        } else {
+        if (head != null) {
             node.next = head;
-            head = node;
         }
-    }
+        head = node;
+      }
+  
 
     public boolean Includes(int d) {
 
