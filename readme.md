@@ -23,6 +23,12 @@
 - [Challenge Code 12 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/Data-Structures/stack-and-queue/lib/src/main/java/stack/and/queue/AnimalShelter.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/Data-Structures/stack-and-queue/lib/src/test/java/stack/and/queue/TestAnimal.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/fifo-animal-shelter.md)
 - [Challenge Code 13 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/Data-Structures/stack-and-queue/lib/src/main/java/stack/and/queue/MultiBracketValidation.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/Data-Structures/stack-and-queue/lib/src/test/java/stack/and/queue/MultiBracketValidationTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/multiBracketValidation%20.md)
 
+## Tree
+- [Challenge Code 15 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/Data-Structures/trees/app/src/main/java/trees)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/Data-Structures/trees/app/src/test/java/trees) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/tree.md)
+ - [Challenge Code 16 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/Data-Structures/trees/app/src/main/java/trees)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/Data-Structures/trees/app/src/test/java/trees) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/tree.md)
+ - [Challenge Code 17 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/Data-Structures/trees/app/src/main/java/trees)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/Data-Structures/trees/app/src/test/java/trees) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/tree.md)
+
+
 
 
 
