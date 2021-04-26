@@ -14,4 +14,4 @@ Create a findMaximum method that which takes a Binary Tree as its unique input a
 | max()                |     return max of two int values.                                                                       | O(1)        | O(1)         |
 
 ## Solution
-![arrar](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/findmax.jpg)
+![arrar](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/findMax.jpg)
