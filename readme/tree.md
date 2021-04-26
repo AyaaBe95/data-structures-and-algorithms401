@@ -17,7 +17,7 @@ To use recursion to traverse through the tree's
 
 # API & Big(O) of Binary Search Tree
 
-| Method               | Description                                                               | Big-O Time  | Big-O Space  |
-|----------------------|--------------------------------------------------------------------------------------------------------|
-| ```add()```         |  adds a Node with input value to correct location in tree.                 | O(n)        | O(1)         |
-| ```search()```      |  searches the BST for a value. Returns Node if found, or null if not found.| O(n)        | O(1)         |
+| Method               | Description                                                                                            | Big-O Time  | Big-O Space  |
+|----------------------|--------------------------------------------------------------------------------------------------------|-------------|--------------|
+| ```add()```         | adds a Node with input value to correct location in tree.                     | O(n)        | O(1)         |
+| ```search()```      |  searches the BST for a value. Returns Node if found, or null if not found.    | O(n)        | O(1)         |
