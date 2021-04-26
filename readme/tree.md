@@ -24,3 +24,7 @@ To use recursion to traverse through the tree's
 |----------------------|--------------------------------------------------------------------------------------------------------|-------------|--------------|
 | add()     | adds a Node with input value to correct location in tree.                     | O(n)        | O(1)         |
 | search()      |  searches the BST for a value. Returns Node if found, or null if not found.    | O(n)        | O(1)         |
+
+# Solution
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/tree.PNG)
+
