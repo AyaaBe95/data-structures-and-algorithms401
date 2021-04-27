@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1b36282-aa39-4595-9606-16132c50a28d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/trees/FindMaxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/trees/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/trees/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/trees/BinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/trees/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/trees/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/trees/FindMaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/trees/FindMaxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.FindMaxTest.findMaximumValueTest">
+  <component name="RunManager" selected="Gradle.breadthFirstTest.breadthFirstEmptyTree">
+    <configuration name="FindMaxTest.breadthFirstEmptyRight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;trees.FindMaxTest.breadthFirstEmptyRight&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="FindMaxTest.findMaximumValueOfNullRootTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -118,33 +136,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FindMaxTest.findMaximumValueTestOneNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="breadthFirstTest.breadthFirstEmptyTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;trees.FindMaxTest.findMaximumValueTestOneNode&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FindMaxTest.testFindMaxValueOneNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;trees.FindMaxTest.testFindMaxValueOneNode&quot;" />
+        <option name="scriptParameters" value="--tests &quot;trees.breadthFirstTest.breadthFirstEmptyTree&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -162,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.breadthFirstTest.breadthFirstEmptyTree" />
+        <item itemvalue="Gradle.FindMaxTest.breadthFirstEmptyRight" />
         <item itemvalue="Gradle.FindMaxTest.findMaximumValueTest" />
         <item itemvalue="Gradle.FindMaxTest.findMaximumValueTestMinusValues" />
         <item itemvalue="Gradle.FindMaxTest.findMaximumValueOfNullRootTest" />
-        <item itemvalue="Gradle.FindMaxTest.findMaximumValueTestOneNode" />
-        <item itemvalue="Gradle.FindMaxTest.testFindMaxValueOneNode" />
       </list>
     </recent_temporary>
   </component>
