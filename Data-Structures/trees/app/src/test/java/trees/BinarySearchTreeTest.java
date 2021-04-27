@@ -28,7 +28,7 @@ public class BinarySearchTreeTest {
         assertEquals("Should add new node to the empty tree", Integer.valueOf(1), test.root.data );
         assertNull("Left child should be null", test.root.left );
         assertNull("Right child should be null", test.root.right );
-        
+
     }
 
     @Test

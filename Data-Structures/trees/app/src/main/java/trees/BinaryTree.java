@@ -25,7 +25,7 @@ public class BinaryTree<T> {
         return valuesArr;
     }
 
-    private ArrayList<T> preOrderTraversalHelper(Node<T> root, ArrayList<T> valuesArr) {
+    public ArrayList<T> preOrderTraversalHelper(Node<T> root, ArrayList<T> valuesArr) {
         if(root == null) {
             return valuesArr;
         }
@@ -45,7 +45,7 @@ public class BinaryTree<T> {
         preOrderTraversalHelper(this.root, valuesArr);
         return valuesArr;
     }
-    private ArrayList<T> inOrderTraversalHelper(Node<T> root, ArrayList<T> valuesArr) {
+    public ArrayList<T> inOrderTraversalHelper(Node<T> root, ArrayList<T> valuesArr) {
         if(root == null) {
             return valuesArr;
         }
@@ -68,7 +68,7 @@ public class BinaryTree<T> {
         return valuesArr;
     }
 
-    private ArrayList<T> postOrderTraversalHelper(Node<T> root, ArrayList<T> valuesArr) {
+    public ArrayList<T> postOrderTraversalHelper(Node<T> root, ArrayList<T> valuesArr) {
         if(root == null) {
             return valuesArr;
         }
@@ -81,6 +81,22 @@ public class BinaryTree<T> {
         valuesArr.add((T) root.data);
         return valuesArr;
     }
+
+    public int findMax(){
+        if (this.root == null){
+            return 0;
+        }
+        ArrayList<T> valuesArr = new ArrayList<>();
+        valuesArr = this.postOrderTraversal();
+        int max = (Integer) this.root.data;
+        for (Integer i = 0; i < valuesArr.size(); i++){
+            if (max <(Integer) valuesArr.get(i)) {
+                max = (Integer) valuesArr.get(i);
+            }
+        }
+        return max;
+    }
+
 
 }
 
