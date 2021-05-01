@@ -15,4 +15,4 @@ create a function that convert a tree into fizz-buzz tree:
 - fizzBuzzTree()
 
 # Solution:
-![arrar](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/fizzbuzz.PNG)
+![arrar](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/fizzbuzz1.PNG)
