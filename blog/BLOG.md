@@ -26,6 +26,8 @@ InsertionSort(int[] arr)
       arr[j + 1] <-- temp
 
 ## Diagram:
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/blog.PNG)
+
 
 
 ## Big-O:
