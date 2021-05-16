@@ -3,8 +3,7 @@ package Data.Structures;
 
 public class LinkedList {
 
-
-    public Node head;
+       public Node head;
 
     public static void main(String[] args) {
         LinkedList l = new LinkedList();
