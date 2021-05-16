@@ -9,9 +9,8 @@
 ## Algorithm:
 
 * it involves two loops.
-*   - the outer loop: starts from the left and keeps track the array.
-    - then enter the inner loop:which it starts from the second element in the array (compare the second element with first elment and add sorted elment to its position).
-
+  - The outer loop: keeps track of  value that  is being moved into its sorted position, starting with the second element in the array. 
+  - The inner loop  iterates leftwards in order to find the correct position for that element.
 ## Pseudocode:
 InsertionSort(int[] arr)
 
@@ -25,6 +24,9 @@ InsertionSort(int[] arr)
         j <-- j - 1
         
       arr[j + 1] <-- temp
+
+## Diagram:
+
 
 ## Big-O:
 - Time:O(n²) 
