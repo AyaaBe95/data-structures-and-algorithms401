@@ -9,8 +9,8 @@
 ## Algorithm:
 
 * it involves two loops.
-  - The outer loop:it starts from the second element in the array (it  tracks the value that is being moved into its sorted position).
-  - then enters the inner loop which it iterates leftwards to find the correct position for the sorted part of the array.
+*   - the outer loop: starts from the left and keeps track the array.
+    - then enter the inner loop:which it starts from the second element in the array (compare the second element with first elment and add sorted elment to its position).
 
 ## Pseudocode:
 InsertionSort(int[] arr)
