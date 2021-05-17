@@ -58,6 +58,8 @@ DECLARE k <-- 0
 
 
 ## Diagram:
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/merge-sort.png)
+
 
 ## Big-O:
 - Time: O(n log n)
