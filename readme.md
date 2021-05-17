@@ -31,6 +31,8 @@
 
 ## Sort
 - [Challenge Code 26 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/main/java/blog/insertionSort.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/test/java/blog/AppTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/BLOG.md)
+- [Challenge Code 26 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/main/java/blog/mergeSort.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/test/java/blog/mergeTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/BLOG2.md)
+
 
  
 
