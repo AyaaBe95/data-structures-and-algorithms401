@@ -10,8 +10,12 @@
 - conquers by recursively sorting the sub arrays.
 
 ## Pseudocode:
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/quicksortcode.PNG)
+
 
 ## Diagram:
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/quick-sort.png)
+
 
 ## Big-O:
 - Time:O(n log n)
