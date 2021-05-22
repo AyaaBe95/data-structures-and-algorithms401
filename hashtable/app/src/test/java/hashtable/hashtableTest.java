@@ -19,7 +19,7 @@ public class hashtableTest {
         hashTable.add("assel", 8);
 
 
-        assertTrue("Should return 4",hashTable.size() == 5);
+        assertTrue("Should return 5",hashTable.size() == 5);
     }
 
     @Test
