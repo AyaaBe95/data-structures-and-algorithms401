@@ -32,7 +32,10 @@
 ## Sort
 - [Challenge Code 26 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/main/java/blog/insertionSort.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/test/java/blog/AppTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/BLOG.md)
 - [Challenge Code 27 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/main/java/blog/mergeSort.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/test/java/blog/mergeTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/BLOG2.md)
+- [Challenge Code 28 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/main/java/blog/mergeSort.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/app/src/test/java/blog/mergeTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/blog/BLOG2.md)
 
+## HashTable
+- [Challenge Code 30 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/hashtable.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/hashtableTest.java) [***Readme***](github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/hashtable.md)
 
  
 
