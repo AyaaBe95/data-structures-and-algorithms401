@@ -13,8 +13,8 @@
 ![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/quicksortcode.PNG)
 
 
-## Diagram:
-![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/quick-sort.png)
+## Trace:
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/quick.jpeg)
 
 
 ## Big-O:
