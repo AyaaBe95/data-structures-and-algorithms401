@@ -18,5 +18,9 @@
 
 
 ## Big-O:
-- Time:O(n log n)
-- Space:O(n )
+### Time:
+1. Worst case is O(n^2) : It occurs when the partition process always picks greatest or smallest element as pivot. ( T(n) = T(0) + T(n-1) + \theta(n) )
+2. Expected is O(n log n): It occurs when the partition process always picks the middle element as pivot. ( T(n) = 2T(n/2) + \theta(n) )
+
+### Space:
+- O(1):it does not need adding any new storage.
