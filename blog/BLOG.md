@@ -8,9 +8,9 @@
 
 ## Algorithm:
 
-* it involves two loops.
-  - The outer loop: keeps track of  value that  is being moved into its sorted position, starting with the second element in the array. 
-  - The inner loop  iterates leftwards in order to find the correct position for that element.
+- At each array-position, it checks the value there against the largest value in the sorted list 
+- If larger, it leaves the element in place and moves to the next. 
+- If smaller, it finds the correct position within the sorted list, shifts all the larger values up to make a space, and inserts into that correct position.
 ## Pseudocode:
 InsertionSort(int[] arr)
 
@@ -32,6 +32,6 @@ InsertionSort(int[] arr)
 
 ## Big-O:
 - Time:O(n²) 
-  * it contains two loops in the worst case scenario.
+  * The basic operation of this algorithm is comparison. This will happen n * (n-1) number of times...concluding the algorithm to be n squared.
 - Space:O(1)
   * the space utilized is constant.

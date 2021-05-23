@@ -4,25 +4,21 @@ import java.util.ArrayList;
 
 public class insertionSort {
 
-    public static String sorting(int[] arr){
+    public static int[] sorting(int[] arr){
 
-        ArrayList<Integer> data = new ArrayList<>();
+        for(int i=1; i<arr.length;i++) {
 
-        for (int i = 0; i < arr.length; i++)
-        {
-            for (int j = i + 1; j < arr.length; j++)
-            {
-                int tmp = 0;
-                if (arr[i] > arr[j])
-                {
-                    tmp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = tmp;
-                }
-            }
-            data.add(arr[i]);
+
+            int j = i - 1;
+            int temp =arr[i];
+
+            while (j >=0 && temp <arr[j]){
+                arr[j + 1] =arr[j];
+                j=j - 1;}
+
+            arr[j + 1]= temp;
         }
 
-        return data.toString();
+        return arr;
     }
 }
