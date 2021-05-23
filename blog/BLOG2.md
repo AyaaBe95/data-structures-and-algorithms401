@@ -57,8 +57,11 @@ DECLARE k <-- 0
 
 
 
-## Diagram:
-![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/merge-sort.png)
+## Trace:
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/merge1.jpeg)
+
+![](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/merge2.jpeg)
+
 
 
 ## Big-O:
