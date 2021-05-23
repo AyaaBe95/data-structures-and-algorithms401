@@ -65,7 +65,7 @@ DECLARE k <-- 0
 
 
 ## Big-O:
-- Time: O(n log n)
+- Time: O(n log n): it has to divid the array every time into two sub arrays and loop over the values in order to merge them.
 - Space : O(n)
 
 
