@@ -36,7 +36,7 @@
 
 ## HashTable
 - [Challenge Code 30 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/hashtable.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/hashtableTest.java) [***Readme***](github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/hashtable.md)
-- [Challenge Code 31 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/hashtable.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/hashtableTest.java) [***Readme***](github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/hashtable.md)
+- [Challenge Code 31 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/repeatedWord.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/RepeatedWordTest.java) [***Readme***](github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/hashtable.md)
 
  
 
