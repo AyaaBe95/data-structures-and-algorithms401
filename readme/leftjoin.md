@@ -13,4 +13,4 @@
 - It takes two HashMaps, and will return a HashMap.
 
 ## Solution:
-![arrar](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/join.PNG)
+![arrar](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/assests/join1.PNG)
