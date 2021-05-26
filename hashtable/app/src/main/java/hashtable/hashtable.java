@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 public class hashtable <T> {
 
- 
+
     private static int INIT_TABLE_SIZE = 20;
     private LinkedList<Node<T>>[] arrayHash;
     private int size;
@@ -80,4 +80,3 @@ public class hashtable <T> {
 
 
 }
-
