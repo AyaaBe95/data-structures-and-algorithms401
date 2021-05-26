@@ -42,7 +42,7 @@
 
  
 ## Graph
-- [Challenge Code 35 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/repeatedWord.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/RepeatedWordTest.java) [***Readme***](github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/hashtable.md)
+- [Challenge Code 35 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/repeatedWord.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/RepeatedWordTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/graph.md)
 
  
 
