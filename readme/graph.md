@@ -12,5 +12,8 @@
 
 ## Big-O:
 - All methods take:
-1. Time: O(n)
-2. Space O(n)
+1. addNode(): Time: O(1)  Space O(1)
+2. addEdge(): Time: O(1)  Space O(1)
+3. getNodes(): Time: O(1)   Space O(n)
+4. getNeighbors(): Time: O(1)  Space O(1)
+5. size(): Time: O(1)  Space O(1)
