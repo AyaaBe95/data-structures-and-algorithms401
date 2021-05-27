@@ -8,10 +8,10 @@ public class App {
     public static void main(String[] args) {
         hashtable hashtable = new hashtable();
 
-        hashtable.add("test", "test1");
-        hashtable.add("test2", "test3");
-        hashtable.add("test4", "test5");
-        System.out.println(hashtable);
+//        hashtable.add("test", "test1");
+//        hashtable.add("test2", "test3");
+//        hashtable.add("test4", "test5");
+//        System.out.println(hashtable);
 
     }
 }
