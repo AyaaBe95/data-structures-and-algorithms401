@@ -36,8 +36,13 @@
 
 ## HashTable
 - [Challenge Code 30 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/hashtable.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/hashtableTest.java) [***Readme***](github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/hashtable.md)
+- [Challenge Code 31 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/repeatedWord.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/RepeatedWordTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/repeatedWord.md)
+ - [Challenge Code 32 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/repeatedWord.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/RepeatedWordTest.java) [***Readme***](github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/hashtable.md)
+ - [Challenge Code 33 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/main/java/hashtable/leftJoin.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/hashtable/app/src/test/java/hashtable/leftJoinTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/leftjoin.md)
 
  
+## Graph
+- [Challenge Code 35 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/graph/app/src/main/java/graph)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/test/java/graph/graphTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/graph.md)
 
  
 
