@@ -1,8 +1,10 @@
 package graph;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import Queue.queue;
+import Queue.Node;
+
+
+import java.util.*;
 
 public class Graph {
 
@@ -57,5 +59,27 @@ public class Graph {
 
     public HashMap<Vertex, ArrayList> getListOfEdges() {
         return listOfEdges;
+    }
+
+    public  ArrayList breadthFirstMethod (Vertex vertex){
+        ArrayList nodes = new ArrayList<>();
+        queue breadth = new queue();
+        Set visited = new HashSet();
+
+        breadth.enqueue(vertex);
+        visited.add(vertex);
+        while (!breadth.isEmpty()) {
+            Vertex front = (Vertex) ((Node) breadth.dequeue()).getValue();
+            nodes.add(front.getValue());
+            for (Object child : this.getNeighbors(front)){
+                Vertex currentVertex = ((Edge) child).getVertex();
+                if (!visited.contains(currentVertex)) {
+                    visited.add(currentVertex);
+                    breadth.enqueue(currentVertex);
+                }
+            }
+        }
+        return nodes;
+
     }
 }

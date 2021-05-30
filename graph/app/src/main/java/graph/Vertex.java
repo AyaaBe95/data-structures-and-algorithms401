@@ -2,13 +2,13 @@ package graph;
 
 public class Vertex {
 
-    private int value;
+    private Object value;
 
-    public Vertex(int value){
+    public Vertex(Object value){
         this.value=value;
     }
 
-    public int getValue() {
+    public Object getValue() {
         return value;
     }
 
