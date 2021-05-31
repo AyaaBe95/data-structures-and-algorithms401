@@ -43,6 +43,7 @@
  
 ## Graph
 - [Challenge Code 35 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/graph/app/src/main/java/graph)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/test/java/graph/graphTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/graph.md)
+[Challenge Code 36 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/graph/app/src/main/java/graph)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/test/java/graph/breadthFirstTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/GraphBreadthFirst.md)
 
  
 
