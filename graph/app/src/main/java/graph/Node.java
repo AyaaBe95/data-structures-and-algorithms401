@@ -1,4 +1,4 @@
-package Queue;
+package graph;
 
 public class Node <T>{
 

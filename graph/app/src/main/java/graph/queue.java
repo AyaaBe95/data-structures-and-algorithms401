@@ -1,4 +1,6 @@
-package Queue;
+package graph;
+
+import graph.Node;
 
 public class queue <T>{
     Node front;

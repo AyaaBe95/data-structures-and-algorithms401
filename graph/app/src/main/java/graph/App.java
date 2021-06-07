@@ -31,7 +31,6 @@ public class App {
         graph.addEdge(Monstroplolis,Naboo,0);
         graph.addEdge(Narnia,Naboo,0);
 
-        System.out.println(graph);
         System.out.println(graph.breadthFirstMethod(Pandora));
 
     }
