@@ -2,7 +2,7 @@ package graph;
 
 public class Vertex {
 
-    private Object value;
+    public Object value;
 
     public Vertex(Object value){
         this.value=value;

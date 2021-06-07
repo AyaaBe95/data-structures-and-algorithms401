@@ -1,8 +1,8 @@
 package graph;
 
-public class Edge {
+public class Edge<T> {
 
-   private Vertex vertex;
+    private Vertex vertex;
    private int weight;
 
    public Edge(Vertex vertex,int weight){
