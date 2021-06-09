@@ -17,33 +17,31 @@ public class Graph {
     }
 
     public void addEdge(Vertex start,Vertex end,int weight){
-        try{
-            if(this.listOfEdges.get(start)!=null && this.listOfEdges.get(end)!=null){ //check for edge
-                ArrayList edges = this.listOfEdges.get(start);
-                edges.add(new Edge(end,weight));  // add edge
-//                this.listOfEdges.put(start,edges);
-            } throw new Exception();
-        } catch (Exception ex){
-            System.out.println(ex);
+        ArrayList edges = this.listOfEdges.get(start);
+        this.listOfEdges.put(start, edges);
+
+        if (this.listOfEdges.containsKey(start) && this.listOfEdges.containsKey(end)) {
+            edges.add(new Edge(end, weight));
+        }else {
+            edges.add(new Edge(start));
+
         }
 
     }
 
-    public List getNodes(){
 
-        ArrayList keys = new ArrayList();
-        listOfEdges.entrySet()
-                .forEach((entry) -> keys.add(entry.getKey()));
-        if (keys.size()==0){
-            return null;
-        }
-        return keys;
+    public List getNodes() {
+        List<Vertex> nodes = new ArrayList<>();
 
+        nodes.forEach((vertex) -> nodes.add(vertex));
+
+        return nodes;
     }
 
-    public List getNeighbors(Vertex vertex){
-        if(listOfEdges.get(vertex)!=null){
-            return listOfEdges.get(vertex); // return all edges
+
+    public List getNeighbors(Vertex vertex) {
+        if (listOfEdges.containsKey(vertex)) {
+            return listOfEdges.get(vertex);
         }
         return new ArrayList();
     }
@@ -52,9 +50,15 @@ public class Graph {
         return this.size;
     }
 
+    public void setVertices(HashMap<Vertex, ArrayList> vertices) {
+        this.listOfEdges = vertices;
+    }
+
     public HashMap<Vertex, ArrayList> getListOfEdges() {
         return listOfEdges;
     }
+
+
 
     public  ArrayList breadthFirstMethod (Vertex vertex){
         ArrayList nodes = new ArrayList<>();
@@ -98,7 +102,6 @@ public class Graph {
         return nodes;
 
     }
-
 
 
 }
