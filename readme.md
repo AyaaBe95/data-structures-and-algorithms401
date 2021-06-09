@@ -46,7 +46,7 @@
 
 - [Challenge Code 36 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/graph/app/src/main/java/graph)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/test/java/graph/breadthFirstTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/GraphBreadthFirst.md)
 
-- [Challenge Code 37 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/tree/main/graph/app/src/main/java/graph)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/test/java/graph/breadthFirstTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/GraphBreadthFirst.md)
+- [Challenge Code 37 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/main/java/graph/getEdge.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/test/java/graph/addEdgeTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/GraphBreadthFirst.md)
 
 - [Challenge Code 38 Solution](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/main/java/graph/Graph.java)[***Test***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/graph/app/src/test/java/graph/depthFirstTest.java) [***Readme***](https://github.com/AyaaBe95/data-structures-and-algorithms401/blob/main/readme/depthFirstGraph.md)
 
